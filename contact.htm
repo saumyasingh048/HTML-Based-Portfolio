@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <hr>
+    <p><strong>Address: </strong>Haridwar, Uttarakhand</p>    
+    <p><strong>Mobile No.: </strong>7906XXXX19</p>    
+    <p><strong>Email ID: </strong>saumya_singh048@rocketmail.com</p>    
+    <hr>
+    <p><em>Please, fill this form to help me know you guys better.</em></p>
+    <hr>
+    <form action="mailto:saumya_singh048@rocketmail.com" enctype="text/plain" method="POST">
+        <label for="name">Name: </label>
+        <input type="text" placeholder="Enter your name" id="name" name="user_name">
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" placeholder="Enter your email" id="email" name="user_email">
+        <br>
+        <br>
+        <label for="gender">Gender: </label>
+        <input type="radio" id="gender" name="Sex" value="Male">
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="Sex" value="Female">
+        <label for="gender">Female</label>
+        
+        <br>
+        <label for="fav_col">Choose your favourite colour: </label>
+        <input type="color" name="fav_col">
+        <br>
+        <br>
+        <label for="date">Enter Today's Date: </label>
+        <input type="date"  id="date" name="DATE">
+        <br>
+        <br>
+        <label for="more">Did you like my purely HTML-based website portfolio?</label>
+        <br>
+        
+        <textarea id="more" cols="100" rows="10" name="views"></textarea>
+        <br>
+        <input type="submit">   
+    </form>
+</body>
+</html>
